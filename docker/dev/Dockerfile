@@ -24,5 +24,4 @@ RUN groupadd --gid $USER_GID $USERNAME \
 
 USER $USERNAME
 
-RUN pip3 install -U pip setuptools wheel poetry
-RUN python3 -m poetry config virtualenvs.in-project true
+RUN pip3 install -U pip setuptools wheel
