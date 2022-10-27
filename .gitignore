@@ -136,3 +136,7 @@ dmypy.json
 
 # Locked files
 *.lock
+
+
+# data
+/data
